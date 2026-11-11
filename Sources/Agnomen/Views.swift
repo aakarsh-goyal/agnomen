@@ -61,11 +61,8 @@ private struct EmptyState: View {
             Button("Choose Folder…") { model.chooseFolder() }
                 .buttonStyle(.glassProminent)
                 .controlSize(.large)
-            HStack(spacing: 6) {
-                Text("Model").font(.caption).foregroundStyle(.secondary)
-                ModePicker(model: model)
-            }
-            .padding(.top, 4)
+            ModePicker(model: model)
+                .padding(.top, 4)
             PrivacyLabel(model: model, long: true).padding(.top, 2)
             if let b = model.banner { Text(b).font(.caption).foregroundStyle(.orange) }
             Spacer()
