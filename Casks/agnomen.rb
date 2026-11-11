@@ -1,6 +1,6 @@
 cask "agnomen" do
-  version "1.0.0"
-  sha256 "0207946a7c51a616591499a17387c3dfe5cc948920ebb7077b3ca5fa0278ca1a"
+  version "1.0.1"
+  sha256 "aeaec509d79ec225b9326a0c40e300e79baa023dfe6df91a18d4d647c9fb20d6"
 
   url "https://github.com/aakarsh-goyal/agnomen/releases/download/v#{version}/Agnomen-#{version}-arm64.zip"
   name "Agnomen"
